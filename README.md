@@ -53,3 +53,62 @@ TechBridge by Baselink Services Limited · Bridging Learning to Real-World Exper
 LinkedIn
 Facebook
 -logo.jpeg
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta namekotlin name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge | Bridging Learning to Real-World Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-blue-600 tracking-tight">TechBridge</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">About</a>
+                        <a href="#programs" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">Programs</a>
+                        <a href="#internship" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">Internship</a>
+                        <a href="#community" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">Community</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white py-20 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">TechBridge</h1>
+            <p class="text-xl md:text-2xl font-light mb-8 text-blue-100">Bridging Learning to Real-World Experience</p>
+            <p class="text-lg max-w-2xl mx-auto mb-10 opacity-90">Empowering the next generation of tech professionals through practical, project-based training and hands-on industry exposure.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#programs" class="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-blue-50 transition">View Programs</a>
+                <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" class="bg-blue-500 text-white border border-blue-400 px-8 py-3 rounded-md font-semibold hover:bg-blue-400 transition">Apply Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold
